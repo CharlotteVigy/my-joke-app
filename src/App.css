@@ -4,8 +4,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh; /* Ensures the content is vertically centered */
   background-color: #f0f0f0;
+  padding: 0 20px; /* Add padding to prevent content from touching edges on mobile */
+  box-sizing: border-box;
 }
 
 .app-title {
@@ -13,4 +15,5 @@
   color: #333;
   font-family: 'Arial', sans-serif;
   margin-bottom: 20px;
+  text-align: center;
 }
